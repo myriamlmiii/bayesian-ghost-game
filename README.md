@@ -2,10 +2,13 @@
 
 An interactive AI game implementing Bayesian inference for ghost localization using probabilistic sensor feedback on an 8×13 grid.
 
-**Demo Video:** [Watch Gameplay](https://youtu.be/nO9lVMx8nlk)
+## 🎥 Demo Video
+
+[![Watch Gameplay Demo](https://img.youtube.com/vi/nO9lVMx8nlk/maxresdefault.jpg)](https://youtu.be/nO9lVMx8nlk)
+
+*Click the image above to watch the full gameplay demonstration*
 
 ---
-
 ## What Problem Are We Solving?
 
 **Challenge:** How can players locate a hidden object using only noisy, probabilistic sensor feedback?
