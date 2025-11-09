@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bust the Ghost Game</title>
+    <link rel="stylesheet" href="game-style.css">
+    <script src="gamescript.js" defer></script>
+</head>
+<body>
+    <h1>Bust the Ghost Game</h1>
+
+    <!-- Game container for the grid -->
+    <div id="game-container"></div>
+
+    <!-- Game buttons -->
+    <div class="controls">
+        <button id="viewProbabilities">View Probabilities</button>
+        <button id="directionSensor">Activate Direction Sensor</button>
+        <button id="bustGhost">Bust the Ghost</button>
+        <button id="restartGame">Restart Game</button>
+    </div>
+
+    <!-- Score and remaining busts -->
+    <div id="stats">
+        <p>Remaining Busts: <span id="remainingBusts">2</span></p>
+        <p>Score: <span id="score">30</span></p>
+        <p>Direction: <span id="directionDisplay" style="font-weight: bold; color: #333;">-</span></p>
+    </div>
+</body>
+</html>

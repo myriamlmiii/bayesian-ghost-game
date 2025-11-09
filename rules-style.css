@@ -1,0 +1,71 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #574C4F, #9C9C9C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333333;
+}
+
+/* Rules container styling */
+#rules-container {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    color: #6C63FF;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #6C63FF;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph and list styling */
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0 auto 15px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+button {
+    background-color: #6C63FF;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #5145CC;
+    transform: translateY(-2px);
+}

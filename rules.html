@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rules - Bust the Ghost</title>
+    <link rel="stylesheet" href="rules-style.css">
+</head>
+<body>
+    <div id="rules-container">
+        <h1>How to Play ?</h1>
+    
+        <div class="rules-section">
+            <p>Find and "bust" the ghost hidden in the grid by strategically clicking on cells and using the color feedback as hints.</p>
+        </div>
+
+        <div class="rules-section">
+            <h2>Colors Explanation</h2>
+            <ul>
+                <li><strong>Red:</strong> The ghost is in this cell!</li>
+                <li><strong>Orange:</strong> The ghost is 1-2 cells away.</li>
+                <li><strong>Yellow:</strong> The ghost is 3-4 cells away.</li>
+                <li><strong>Green:</strong> The ghost is 5 or more cells away.</li>
+            </ul>
+        </div>
+        <div class="rules-section">
+            <h2>Scores</h2>
+            <p>
+                - Each click costs you <strong>1 point</strong>.<br>
+                - Use the <strong>View Probabilities (Peep)</strong> button to reveal the likelihood of the ghost's location.<br>
+                - When confident, click <strong>Bust the Ghost</strong> to guess the ghost's position.
+            </p>
+            <p>
+                You win if you find the ghost, but if your points or busts run out, it's <strong>Game Over</strong>!
+            </p>
+        </div>
+        
+        <button id="backToMenu">Back to Main Menu</button>
+    </div>
+    <script>
+        document.getElementById("backToMenu").addEventListener("click", () => {
+            window.location.href = "index.html"; // Redirect back to the main menu
+        });
+    </script>
+</body>
+</html>

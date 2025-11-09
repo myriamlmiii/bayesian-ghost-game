@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Consistent font usage */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #574C4F 40%, #9C9C9C); /* Subtle gradient background */
+    color: #FFFFFF; /* For good contrast and readability */
+}
+
+#main-container {
+    width: 100%;
+    max-width: 360px; /* Suitable for both mobile and desktop */
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+}
+
+.ghost-image {
+    max-width: 100%; /* Responsive image settings */
+    animation: float 5s ease-in-out infinite; /* Floating animation for ghost */
+}
+
+h1 {
+    color: #000000; /* Title color */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.button {
+    background-color: #7A6F72;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #5D5360;
+    transform: translateY(-2px);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
