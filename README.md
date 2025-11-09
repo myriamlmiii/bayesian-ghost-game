@@ -7,7 +7,7 @@ An interactive AI game implementing Bayesian inference for ghost localization us
 [![Watch Gameplay Demo](https://img.youtube.com/vi/nO9lVMx8nlk/maxresdefault.jpg)](https://youtu.be/nO9lVMx8nlk)
 
 *Click the image above to watch the full gameplay demonstration*
-
+https://www.youtube.com/watch?v=nO9lVMx8nlk
 ---
 ## What Problem Are We Solving?
 
